@@ -51,15 +51,15 @@ result_label = Label(content_frame, text="Result:", bg=bg_color, font=font_style
 result_display = Label(content_frame, textvariable=result_text, bg=bg_color, font=font_style)
 
 # Display widgets
-operation_label.grid(row=0, column=0, pady=5)
-operation_dropdown.grid(row=0, column=1, pady=5)
-number1_label.grid(row=1, column=0, pady=5)
-number1_entry.grid(row=1, column=1, pady=5)
-number2_label.grid(row=2, column=0, pady=5)
-number2_entry.grid(row=2, column=1, pady=5)
-calculate_button.grid(row=3, column=1, pady=5)
-result_label.grid(row=4, column=0, pady=5)
-result_display.grid(row=4, column=1, pady=5)
+operation_label.grid(row=0, column=0, pady=4)
+operation_dropdown.grid(row=0, column=1, pady=4)
+number1_label.grid(row=1, column=0, pady=4)
+number1_entry.grid(row=1, column=1, pady=4)
+number2_label.grid(row=2, column=0, pady=4)
+number2_entry.grid(row=2, column=1, pady=4)
+calculate_button.grid(row=3, column=1, pady=4)
+result_label.grid(row=4, column=0, pady=4)
+result_display.grid(row=4, column=1, pady=4)
 
 # Pack the content_frame to center align it within the window
 content_frame.pack(expand=True, fill='both', padx=20, pady=20)
